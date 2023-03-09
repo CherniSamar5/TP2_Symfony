@@ -1,0 +1,7 @@
+# controllers:
+#     resource: ../src/Controller/
+#     type: attribute
+
+homepage: 
+    path: /{name}
+    controller: App\Controller\IndexController::home 
